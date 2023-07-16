@@ -48,3 +48,35 @@ console.log("Hola mundo");
  * ? Global: objeto "global" en Node.js proporciona un ámbito global para variables, funciones y objetos en una aplicación de Node.js. A través del objeto "global", se pueden definir variables y funciones que estarán disponibles en t odos los módulos y archivos de la aplicación. A diferencia del objeto "window" en el navegador, el
  */
 console.log(global);
+
+/**
+ * ? Process: En Node.js, el objeto process es un objeto global que proporciona información y control sobre el proceso actual en ejecución. Es una instancia de la clase EventEmitter, lo que significa que puede emitir y escuchar eventos.
+ * * - process.exit: Un método que finaliza el proceso actual. Puedes proporcionar un código de salida opcional como argumento para indicar el estado de salida del proceso.
+ */
+console.log("terminar");
+process.exit();
+console.log("process");
+
+/**
+ * * process.env: Objeto que contiene las variables de entorno del sistema. Puedes acceder a estas variables para obtener información como la configuración del sistema, rutas de archivo, claves de API, etc.
+ */
+console.log(`Carpeta principal \n${process.env.PWD}`);
+
+/**
+ * ? Configurar la codificacion de caracteres de la entrada estandar
+ * @param 'setEncoding('utf8')'
+ */
+process.stdin.setEncoding('utf8');
+
+/**
+ * * Escuchar la entrada de datos
+ * @param 'data'
+ */
+process.stdin.on('data', (input) => {
+    /**
+     * ? Quitar el espacio cuando se accione el enter
+     * @param 'trim()'
+     */
+    input = input.trim();
+    console.log(`El dato de entrada es ${input}`);
+})
