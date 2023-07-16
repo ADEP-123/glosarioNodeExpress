@@ -38,3 +38,13 @@
  * * Inicie una nueva request con el boton azul "New Request"
  * * Puede seleccionar el tipo de peticion, envio de informacion, url etc desde el panel de peticion
 */
+
+/**
+ * * Ejecutar archivos con node, en la consola ejecutar el comando "node <nombreArchivo.js>"
+ */
+console.log("Hola mundo");
+
+/**
+ * ? Global: objeto "global" en Node.js proporciona un ámbito global para variables, funciones y objetos en una aplicación de Node.js. A través del objeto "global", se pueden definir variables y funciones que estarán disponibles en t odos los módulos y archivos de la aplicación. A diferencia del objeto "window" en el navegador, el
+ */
+console.log(global);
