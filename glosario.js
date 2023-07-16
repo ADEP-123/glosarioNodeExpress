@@ -28,3 +28,13 @@
  * * - nvm list (verificar la version actual en uso sea la que se desea)
  * * - node --version (verificar la version de node usada)
  */
+
+/**
+ * ? Thunder Client: Herramienta que te permite realizar solicitudes HTTP y probar servicios web directamente desde tu editor de código. Proporciona una interfaz amigable y fácil de usar para enviar y recibir solicitudes HTTP, ver los encabezados y el cuerpo de las respuestas, y realizar pruebas y depuración de servicios web.
+ * ? Como usar 
+ * * Para instalar bsuque la extension desde visual studio code
+ * * Despues de instalado es recomendable reiniciar visual studio code
+ * * Busque el simbolo de la extension en el panel de extensiones instaladas
+ * * Inicie una nueva request con el boton azul "New Request"
+ * * Puede seleccionar el tipo de peticion, envio de informacion, url etc desde el panel de peticion
+*/
